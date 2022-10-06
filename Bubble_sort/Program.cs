@@ -68,5 +68,20 @@
                 }
             }
         }
+        static void Main(string[] args)
+        {
+            //creating the object of the bubblesort class
+            program myList = new program();
+
+            //pemanggilan fungsi untuk menerima elemen array
+            myList.read();
+            //pemanggilan fungsi untuk mengurutkan array
+            myList.BubbleSortArray();
+            //pemanggilan fungsi untuk menampilkan array yang tersusun
+            myList.display();
+            //exit
+            Console.WriteLine("\n\nTekan Tombol Apa Saja Untuk Keluar.");
+            Console.Read();
+        }
     }
 }
