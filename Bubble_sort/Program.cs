@@ -29,7 +29,7 @@
             Console.WriteLine(" Masukkan elemen array ");
             Console.WriteLine("-------------------------");
 
-            // pengguna memasukkan elemen pada array
+            // pengguna memasukkan elemen pada array g
             for (int i = 0; i < n; i++)
             {
                 Console.Write("<" + (i + 1) + "> ");
